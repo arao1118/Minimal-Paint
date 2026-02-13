@@ -269,6 +269,7 @@ int main()
                 circle.radius += event.wheel.y;
                 if (circle.radius < 1)
                     circle.radius = 1;
+                printf("Cursor size: %.1f\n",circle.radius);
             }
         }
 
